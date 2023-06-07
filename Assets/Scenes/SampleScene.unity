@@ -753,7 +753,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725982592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 119, y: 116, z: 497}
+  m_LocalPosition: {x: 185.1, y: 12.61, z: 250.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1002,8 +1002,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59fee90d717148344ad72ee571edcab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0.5
-  raisePower: 0.0001
+  brushRadius: 10
+  radius: 5
+  stddev: 5
+  n: 0
+  addMode: 0
 --- !u!135 &2060642890
 SphereCollider:
   m_ObjectHideFlags: 0
