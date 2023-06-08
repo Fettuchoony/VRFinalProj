@@ -38,7 +38,7 @@ public class TerrainManipulator : MonoBehaviour
 
     public void UpdateText() 
     {
-        _text.text = radius.ToString();
+        // _text.text = radius.ToString();
     }
 
     public void AddRadius() 
